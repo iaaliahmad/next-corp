@@ -13,8 +13,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Header />
-        {children}
+        {/* <Header /> */}
+        <div className="container mx-auto px-12">
+          {children}
+        </div>
       </body>
     </html>
   );
